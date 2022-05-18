@@ -26,12 +26,12 @@ Por ser uma API monolítica, a instalação consiste em:
 Tendo os pre-requisitos instalados, basta seguir os passos abaixo:
 
 ```
-Importar o projeto para a IDE escolhida.
-Fazer o build do projeto para que todas as dependencias sejam baixas.
-Execultar o projeto.
+Importe o projeto para a IDE escolhida.
+Faça o build do projeto para que todas as dependencias sejam baixas.
+Execute o projeto.
 ```
 
-Com o projeto rodando, pode se testar de pois modos:
+Com o projeto rodando, pode se testar de dois modos:
 
 ```
 Utilizando o Postman, ou qualquer programa para realizar requisições.
@@ -40,15 +40,13 @@ Utilizando a documentação, acessível atraves do link http://localhost:8080/sw
 
 ## ⚙️ Executando os testes
 
-Os testes foram feitos utilizando modulo do Spring para tests com JUnit Jupiter, todos os testes foram feitos utilizando mocks. Então para executa-los basta estar em um sistema que seja possivel subir o ambiente spring.
+Os testes foram feitos utilizando modulo do Spring para tests com JUnit Jupiter, todos foram escritos utilizando mocks. Então para executa-los basta estar em um sistema que seja possivel subir o ambiente spring.
 
 ### 🔩 Cobertura dos testes
 
 Os testes cobrem a camada de serviços do projeto, e testam todas as funcionalidades lá inseridas.
 
 ## 🛠️ Construído com
-
-Mencione as ferramentas que você usou para criar seu projeto
 
 * [Maven](https://maven.apache.org/) - Gerente de Dependência
 * [Spring Boot](https://spring.io/projects/spring-boot) - Criação e inicialização do projeto.
